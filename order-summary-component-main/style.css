@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@1,500;1,600;1,700&family=Red+Hat+Display:wght@400;500;600&family=Roboto:wght@300;400;500;900&family=Sedgwick+Ave+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+:root{
+    --clr-var(--pale-blue): hsl(225, 100%, 94%)
+    --clr-var(--bright-blue): hsl(245, 75%, 52%)
+    --clr-var(--clr-pale-blue): hsl(225, 100%, 98%)
+    --clr-var(--disaturated-blue): hsl(224, 23%, 55%)
+    --clr-var(--dark-blur): hsl(223, 47%, 23%)
+}
+body{
+    background-color: #adbcfa;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full-card{
+    width: 350px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+.hero-img{
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.main-header{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.card-description{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: rgb(73, 68, 68);
+    line-spacing 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nxt-section{
+    display: flex;
+    background-color: rgb(173,188,250,0.1);
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    
+    
+}.nxt-section p{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.nxt-section small{
+    font-weight: normal;
+    line-height: 0.5em;
+}
+.nxt-section img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 25px;
+}
+.change{
+    float: right;
+    margin-left: 80px;
+    display: inline block;
+}
+.btn-section{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.main-btn{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 15px;
+    font-weight: 18px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 12px,10px,12px;
+    cursor: pointer;
+}
+.cancel-order{
+    cursor: pointer;
+}
