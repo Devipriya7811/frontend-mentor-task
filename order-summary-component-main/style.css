@@ -28,10 +28,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 20px;
 }
 .full-card{
     width: 350px;
-    height: auto;
+    height:100vh;
     background-color: white;
     border-radius: 15px;
 }
@@ -39,6 +40,7 @@ body{
     width: 350px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    border-radius: 10px;
 }
 .main-header{
     padding-top: 30px;
